@@ -1,0 +1,91 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">   
+</head>
+<div class = "navbar navbar-default navbar-fixed-top">
+    <div id="header" class="mm-fixed-top">
+        <a href="#mm-menu"><img src="/images/fullyscreened.jpeg"></a>
+    </div>
+    <div class="mobile-logo">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="logo">
+                    <?php if (startpoint_get_option('startpoint_logo') != '') { ?>
+                    <a href="<?php echo esc_url( home_url('/') ); ?>">
+                        <img src="/images/fullyscreened.jpeg">
+                    </a>
+                    <?php } else { ?><div class="logo-header"><h1><a href="<?php echo esc_url( home_url('/') ); ?>"></a></h1>
+                    <p></p></div><?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-wrapper single-page-nav clearfix">
+        <div class="menu-wrapper-bg">
+            <div class="container">
+                <div class="row">
+                    <div class = "social">
+                        <ul class="navbar-right">
+                            <li><a href="https://www.facebook.com/GoProteau/?fref=ts"><i class="fa fa-lg fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/fullyscreened"><i class="fa fa-lg fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <!-- logo -->
+                        <div class="logo">
+                            <?php if (startpoint_get_option('startpoint_logo') != '') { ?>
+                            <a href="<?php echo esc_url( home_url('/') ); ?>">
+                                <img src="/images/fullyscreened.jpeg">
+                            </a>
+                            <?php } else { ?><div class="logo-header"><h1><a href="<?php echo esc_url( home_url('/') ); ?>"></a></h1>
+                            <p></p></div><?php } ?>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <nav class="menu-sp">
+                            <?php if (is_front_page()) { ?>
+                            <?php startpoint_frontpage_nav() ?>
+                            <?php } else { ?>
+                            <?php startpoint_nav(); ?>
+                            <?php } ?>
+                        </nav>
+                        <div style="display:none">
+                            <nav class="menu2" id="mm-menu">
+                                <?php if (is_front_page()) { ?>
+                                <?php startpoint_mobilefront_nav() ?>
+                                <?php } else { ?>
+                                <?php startpoint_mobile_nav(); ?>
+                                <?php } ?>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class = "content">
+        <div class = "container">
+            <!-- Centered Pills -->
+            <ul class="nav nav-pills nav-justified">
+              <li><a href="#">1. About You</a></li>
+              <li><a href="#">2. Additional Info</a></li>
+              <li><a href="#">3. Financial</a></li>
+              <li class="active"><a href="#">4. People</a></li>
+              <li><a href="#">5.  Payment</a></li>
+          </ul>
+        <div class = "col-md-8 col-md-offset-2">
+            <h1>Financial</h1>
+			<p>Stripe Key: sk_test_HN4czeVF4x2XsgUMrGtd5nmx</p>
+        </div>
+    </div>
+</div>
+<!-- *** Testimonial Slider Ends *** -->
+</body>
+<?php get_footer(); ?>
+</html>

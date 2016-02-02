@@ -1,0 +1,670 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'index.php',
+1 verbose cli   'license.txt',
+1 verbose cli   'readme.html',
+1 verbose cli   'wp-activate.php',
+1 verbose cli   'wp-admin',
+1 verbose cli   'wp-blog-header.php',
+1 verbose cli   'wp-comments-post.php',
+1 verbose cli   'wp-config-sample.php',
+1 verbose cli   'wp-config.php',
+1 verbose cli   'wp-content',
+1 verbose cli   'wp-cron.php',
+1 verbose cli   'wp-includes',
+1 verbose cli   'wp-links-opml.php',
+1 verbose cli   'wp-load.php',
+1 verbose cli   'wp-login.php',
+1 verbose cli   'wp-mail.php',
+1 verbose cli   'wp-settings.php',
+1 verbose cli   'wp-signup.php',
+1 verbose cli   'wp-trackback.php',
+1 verbose cli   'xmlrpc.php' ]
+2 info using npm@3.4.1
+3 info using node@v4.2.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData index.php
+8 silly fetchPackageMetaData license.txt
+9 silly fetchPackageMetaData readme.html
+10 silly fetchPackageMetaData wp-activate.php
+11 silly fetchPackageMetaData wp-admin
+12 silly fetchPackageMetaData wp-blog-header.php
+13 silly fetchPackageMetaData wp-comments-post.php
+14 silly fetchPackageMetaData wp-config-sample.php
+15 silly fetchPackageMetaData wp-config.php
+16 silly fetchPackageMetaData wp-content
+17 silly fetchPackageMetaData wp-cron.php
+18 silly fetchPackageMetaData wp-includes
+19 silly fetchPackageMetaData wp-links-opml.php
+20 silly fetchPackageMetaData wp-load.php
+21 silly fetchPackageMetaData wp-login.php
+22 silly fetchPackageMetaData wp-mail.php
+23 silly fetchPackageMetaData wp-settings.php
+24 silly fetchPackageMetaData wp-signup.php
+25 silly fetchPackageMetaData wp-trackback.php
+26 silly fetchPackageMetaData xmlrpc.php
+27 silly fetchOtherPackageData index.php
+28 silly cache add args [ 'index.php', null ]
+29 verbose cache add spec index.php
+30 silly fetchOtherPackageData license.txt
+31 silly cache add args [ 'license.txt', null ]
+32 verbose cache add spec license.txt
+33 silly fetchOtherPackageData readme.html
+34 silly cache add args [ 'readme.html', null ]
+35 verbose cache add spec readme.html
+36 silly fetchOtherPackageData wp-activate.php
+37 silly cache add args [ 'wp-activate.php', null ]
+38 verbose cache add spec wp-activate.php
+39 silly fetchOtherPackageData wp-blog-header.php
+40 silly cache add args [ 'wp-blog-header.php', null ]
+41 verbose cache add spec wp-blog-header.php
+42 silly fetchOtherPackageData wp-comments-post.php
+43 silly cache add args [ 'wp-comments-post.php', null ]
+44 verbose cache add spec wp-comments-post.php
+45 silly fetchOtherPackageData wp-config-sample.php
+46 silly cache add args [ 'wp-config-sample.php', null ]
+47 verbose cache add spec wp-config-sample.php
+48 silly fetchOtherPackageData wp-config.php
+49 silly cache add args [ 'wp-config.php', null ]
+50 verbose cache add spec wp-config.php
+51 silly fetchOtherPackageData wp-cron.php
+52 silly cache add args [ 'wp-cron.php', null ]
+53 verbose cache add spec wp-cron.php
+54 silly fetchOtherPackageData wp-links-opml.php
+55 silly cache add args [ 'wp-links-opml.php', null ]
+56 verbose cache add spec wp-links-opml.php
+57 silly fetchOtherPackageData wp-load.php
+58 silly cache add args [ 'wp-load.php', null ]
+59 verbose cache add spec wp-load.php
+60 silly fetchOtherPackageData wp-login.php
+61 silly cache add args [ 'wp-login.php', null ]
+62 verbose cache add spec wp-login.php
+63 silly fetchOtherPackageData wp-mail.php
+64 silly cache add args [ 'wp-mail.php', null ]
+65 verbose cache add spec wp-mail.php
+66 silly fetchOtherPackageData wp-settings.php
+67 silly cache add args [ 'wp-settings.php', null ]
+68 verbose cache add spec wp-settings.php
+69 silly fetchOtherPackageData wp-signup.php
+70 silly cache add args [ 'wp-signup.php', null ]
+71 verbose cache add spec wp-signup.php
+72 silly fetchOtherPackageData wp-trackback.php
+73 silly cache add args [ 'wp-trackback.php', null ]
+74 verbose cache add spec wp-trackback.php
+75 silly fetchOtherPackageData xmlrpc.php
+76 silly cache add args [ 'xmlrpc.php', null ]
+77 verbose cache add spec xmlrpc.php
+78 silly cache add parsed spec Result {
+78 silly cache add   raw: 'index.php',
+78 silly cache add   scope: null,
+78 silly cache add   name: null,
+78 silly cache add   rawSpec: 'index.php',
+78 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/index.php',
+78 silly cache add   type: 'local' }
+79 silly cache add parsed spec Result {
+79 silly cache add   raw: 'license.txt',
+79 silly cache add   scope: null,
+79 silly cache add   name: null,
+79 silly cache add   rawSpec: 'license.txt',
+79 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/license.txt',
+79 silly cache add   type: 'local' }
+80 silly cache add parsed spec Result {
+80 silly cache add   raw: 'readme.html',
+80 silly cache add   scope: null,
+80 silly cache add   name: null,
+80 silly cache add   rawSpec: 'readme.html',
+80 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/readme.html',
+80 silly cache add   type: 'local' }
+81 silly fetchNamedPackageData wp-admin
+82 silly mapToRegistry name wp-admin
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/wp-admin
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: 'wp-activate.php',
+86 silly cache add   scope: null,
+86 silly cache add   name: null,
+86 silly cache add   rawSpec: 'wp-activate.php',
+86 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-activate.php',
+86 silly cache add   type: 'local' }
+87 silly cache add parsed spec Result {
+87 silly cache add   raw: 'wp-blog-header.php',
+87 silly cache add   scope: null,
+87 silly cache add   name: null,
+87 silly cache add   rawSpec: 'wp-blog-header.php',
+87 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-blog-header.php',
+87 silly cache add   type: 'local' }
+88 silly cache add parsed spec Result {
+88 silly cache add   raw: 'wp-comments-post.php',
+88 silly cache add   scope: null,
+88 silly cache add   name: null,
+88 silly cache add   rawSpec: 'wp-comments-post.php',
+88 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-comments-post.php',
+88 silly cache add   type: 'local' }
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: 'wp-config-sample.php',
+89 silly cache add   scope: null,
+89 silly cache add   name: null,
+89 silly cache add   rawSpec: 'wp-config-sample.php',
+89 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-config-sample.php',
+89 silly cache add   type: 'local' }
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'wp-config.php',
+90 silly cache add   scope: null,
+90 silly cache add   name: null,
+90 silly cache add   rawSpec: 'wp-config.php',
+90 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-config.php',
+90 silly cache add   type: 'local' }
+91 silly fetchNamedPackageData wp-content
+92 silly mapToRegistry name wp-content
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/wp-content
+96 silly cache add parsed spec Result {
+96 silly cache add   raw: 'wp-cron.php',
+96 silly cache add   scope: null,
+96 silly cache add   name: null,
+96 silly cache add   rawSpec: 'wp-cron.php',
+96 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-cron.php',
+96 silly cache add   type: 'local' }
+97 silly fetchNamedPackageData wp-includes
+98 silly mapToRegistry name wp-includes
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/wp-includes
+102 silly cache add parsed spec Result {
+102 silly cache add   raw: 'wp-links-opml.php',
+102 silly cache add   scope: null,
+102 silly cache add   name: null,
+102 silly cache add   rawSpec: 'wp-links-opml.php',
+102 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-links-opml.php',
+102 silly cache add   type: 'local' }
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'wp-load.php',
+103 silly cache add   scope: null,
+103 silly cache add   name: null,
+103 silly cache add   rawSpec: 'wp-load.php',
+103 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-load.php',
+103 silly cache add   type: 'local' }
+104 silly cache add parsed spec Result {
+104 silly cache add   raw: 'wp-login.php',
+104 silly cache add   scope: null,
+104 silly cache add   name: null,
+104 silly cache add   rawSpec: 'wp-login.php',
+104 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-login.php',
+104 silly cache add   type: 'local' }
+105 silly cache add parsed spec Result {
+105 silly cache add   raw: 'wp-mail.php',
+105 silly cache add   scope: null,
+105 silly cache add   name: null,
+105 silly cache add   rawSpec: 'wp-mail.php',
+105 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-mail.php',
+105 silly cache add   type: 'local' }
+106 silly cache add parsed spec Result {
+106 silly cache add   raw: 'wp-settings.php',
+106 silly cache add   scope: null,
+106 silly cache add   name: null,
+106 silly cache add   rawSpec: 'wp-settings.php',
+106 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-settings.php',
+106 silly cache add   type: 'local' }
+107 silly cache add parsed spec Result {
+107 silly cache add   raw: 'wp-signup.php',
+107 silly cache add   scope: null,
+107 silly cache add   name: null,
+107 silly cache add   rawSpec: 'wp-signup.php',
+107 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-signup.php',
+107 silly cache add   type: 'local' }
+108 silly cache add parsed spec Result {
+108 silly cache add   raw: 'wp-trackback.php',
+108 silly cache add   scope: null,
+108 silly cache add   name: null,
+108 silly cache add   rawSpec: 'wp-trackback.php',
+108 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/wp-trackback.php',
+108 silly cache add   type: 'local' }
+109 silly cache add parsed spec Result {
+109 silly cache add   raw: 'xmlrpc.php',
+109 silly cache add   scope: null,
+109 silly cache add   name: null,
+109 silly cache add   rawSpec: 'xmlrpc.php',
+109 silly cache add   spec: '/Users/Meg/Documents/Websites/fullyscreened/xmlrpc.php',
+109 silly cache add   type: 'local' }
+110 verbose request uri https://registry.npmjs.org/wp-admin
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 3:59:05 PM
+113 verbose request id f2674649a5607433
+114 http request GET https://registry.npmjs.org/wp-admin
+115 verbose request uri https://registry.npmjs.org/wp-content
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 3:59:05 PM
+118 http request GET https://registry.npmjs.org/wp-content
+119 verbose request uri https://registry.npmjs.org/wp-includes
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 3:59:05 PM
+122 http request GET https://registry.npmjs.org/wp-includes
+123 silly addLocalTarball shasum (computed) 68f14b3bab817862e46cb7ff4bdfa85068004e79
+124 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/index.php not in flight; adding
+125 silly addLocalTarball shasum (computed) 3462d4cc0a23a1ec226b60e262a7aa8227dca657
+126 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/license.txt not in flight; adding
+127 silly addLocalTarball shasum (computed) 90cf89ce1e796b9769d07083e9e214707e6817e7
+128 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/readme.html not in flight; adding
+129 silly addLocalTarball shasum (computed) aaaed62a4d9534651597fb6c26cd35aeeafd219e
+130 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-activate.php not in flight; adding
+131 silly addLocalTarball shasum (computed) 115a8413a41a14452bd5c0b27ed1478bb8cb828e
+132 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-comments-post.php not in flight; adding
+133 silly addLocalTarball shasum (computed) 8852329138d1b63165d726090edc717fba77039a
+134 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-blog-header.php not in flight; adding
+135 silly addLocalTarball shasum (computed) 712c2468e61b0197a9e46568953e3dd0fc8d0a94
+136 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-config-sample.php not in flight; adding
+137 silly addLocalTarball shasum (computed) ba7280c9cd5a5a6d797d6b37523330c4a8139991
+138 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-config.php not in flight; adding
+139 silly addLocalTarball shasum (computed) 119605ae67b7c429cba4b02adf138f0ff0060746
+140 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-cron.php not in flight; adding
+141 silly addLocalTarball shasum (computed) db60ee683171a05feb7df2c5c3b49b05305579f0
+142 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-links-opml.php not in flight; adding
+143 silly addLocalTarball shasum (computed) f4709546d5e77d86933b49489f334800e9cc3d4d
+144 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-load.php not in flight; adding
+145 silly addLocalTarball shasum (computed) 81e1d16b3825298a2b7a3e400e0f179db1716627
+146 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-mail.php not in flight; adding
+147 silly addLocalTarball shasum (computed) b889d806257b5af113b1047fb4e2ed3dd678b404
+148 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-login.php not in flight; adding
+149 silly addLocalTarball shasum (computed) e058486469d9c1b962c321207fa7a4a17ce10cab
+150 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-settings.php not in flight; adding
+151 silly addLocalTarball shasum (computed) 5f78dc43f8abb19ed15952842d9698d4261cca81
+152 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-trackback.php not in flight; adding
+153 silly addLocalTarball shasum (computed) 9bf88e0146a137426015a348994c220198d51074
+154 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/wp-signup.php not in flight; adding
+155 silly addLocalTarball shasum (computed) 7f52161a89e2a3713d7a869818f844b7370791a2
+156 verbose addTmpTarball /Users/Meg/Documents/Websites/fullyscreened/xmlrpc.php not in flight; adding
+157 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/index.php
+158 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/index.php
+159 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5f6bfb14a29e69a5ad06a2437f6fd27d
+160 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5f6bfb14a29e69a5ad06a2437f6fd27d is being purged
+161 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5f6bfb14a29e69a5ad06a2437f6fd27d
+162 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/license.txt
+163 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/license.txt
+164 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-67150334ee954eba23e1c3dbd10a30be
+165 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-67150334ee954eba23e1c3dbd10a30be is being purged
+166 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-67150334ee954eba23e1c3dbd10a30be
+167 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/readme.html
+168 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/readme.html
+169 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-e9c6473d70f7814b3edf89ebb11ba62b
+170 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-e9c6473d70f7814b3edf89ebb11ba62b is being purged
+171 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-e9c6473d70f7814b3edf89ebb11ba62b
+172 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-activate.php
+173 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-activate.php
+174 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06
+175 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06 is being purged
+176 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06
+177 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-comments-post.php
+178 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-comments-post.php
+179 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-38ec6662c6c70cbb4f6f29945786e41c
+180 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-38ec6662c6c70cbb4f6f29945786e41c is being purged
+181 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-38ec6662c6c70cbb4f6f29945786e41c
+182 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-blog-header.php
+183 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-blog-header.php
+184 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-85d6a36f6d62db619a033b693e84580d
+185 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-85d6a36f6d62db619a033b693e84580d is being purged
+186 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-85d6a36f6d62db619a033b693e84580d
+187 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-config-sample.php
+188 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-config-sample.php
+189 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6c1c7040168c02afe1c046cafb95064e
+190 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6c1c7040168c02afe1c046cafb95064e is being purged
+191 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6c1c7040168c02afe1c046cafb95064e
+192 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-config.php
+193 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-config.php
+194 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-fd7e7fc99512aa86b7db0445ced8b786
+195 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-fd7e7fc99512aa86b7db0445ced8b786 is being purged
+196 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-fd7e7fc99512aa86b7db0445ced8b786
+197 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-cron.php
+198 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-cron.php
+199 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-0b9fd748c6d566e25ce6da886ae966ba
+200 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-0b9fd748c6d566e25ce6da886ae966ba is being purged
+201 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-0b9fd748c6d566e25ce6da886ae966ba
+202 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-links-opml.php
+203 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-links-opml.php
+204 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-298f94436acc627cf2e80e355d45d9e7
+205 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-298f94436acc627cf2e80e355d45d9e7 is being purged
+206 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-298f94436acc627cf2e80e355d45d9e7
+207 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-load.php
+208 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-load.php
+209 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d620d90a96b1bbc21ab0b9f2cc538c58
+210 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d620d90a96b1bbc21ab0b9f2cc538c58 is being purged
+211 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d620d90a96b1bbc21ab0b9f2cc538c58
+212 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-mail.php
+213 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-mail.php
+214 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5b68bb1b320dc33e7795eaafef4d4eca
+215 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5b68bb1b320dc33e7795eaafef4d4eca is being purged
+216 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5b68bb1b320dc33e7795eaafef4d4eca
+217 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-login.php
+218 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-login.php
+219 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6d2984b350f071126fc7429a68271b05
+220 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6d2984b350f071126fc7429a68271b05 is being purged
+221 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6d2984b350f071126fc7429a68271b05
+222 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-settings.php
+223 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-settings.php
+224 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-491b6d123fc9794f4cc37ae0ca93cd9f
+225 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-491b6d123fc9794f4cc37ae0ca93cd9f is being purged
+226 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-491b6d123fc9794f4cc37ae0ca93cd9f
+227 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-trackback.php
+228 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-trackback.php
+229 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-3161ee52fa317f635f3759bd642a8845
+230 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-3161ee52fa317f635f3759bd642a8845 is being purged
+231 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-3161ee52fa317f635f3759bd642a8845
+232 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/wp-signup.php
+233 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/wp-signup.php
+234 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d4103b11855b1c52c8d432de79b08f6a
+235 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d4103b11855b1c52c8d432de79b08f6a is being purged
+236 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d4103b11855b1c52c8d432de79b08f6a
+237 verbose addTmpTarball validating metadata from /Users/Meg/Documents/Websites/fullyscreened/xmlrpc.php
+238 verbose tar unpack /Users/Meg/Documents/Websites/fullyscreened/xmlrpc.php
+239 verbose tar unpacking to /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-35c6416074965c24fcc30ad6e9580c22
+240 silly gentlyRm /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-35c6416074965c24fcc30ad6e9580c22 is being purged
+241 verbose gentlyRm don't care about contents; nuking /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-35c6416074965c24fcc30ad6e9580c22
+242 silly gunzTarPerm modes [ '755', '644' ]
+243 silly gunzTarPerm modes [ '755', '644' ]
+244 silly gunzTarPerm modes [ '755', '644' ]
+245 silly gunzTarPerm modes [ '755', '644' ]
+246 silly gunzTarPerm modes [ '755', '644' ]
+247 silly gunzTarPerm modes [ '755', '644' ]
+248 silly gunzTarPerm modes [ '755', '644' ]
+249 silly gunzTarPerm modes [ '755', '644' ]
+250 silly gunzTarPerm modes [ '755', '644' ]
+251 silly gunzTarPerm modes [ '755', '644' ]
+252 silly gunzTarPerm modes [ '755', '644' ]
+253 silly gunzTarPerm modes [ '755', '644' ]
+254 silly gunzTarPerm modes [ '755', '644' ]
+255 silly gunzTarPerm modes [ '755', '644' ]
+256 silly gunzTarPerm modes [ '755', '644' ]
+257 silly gunzTarPerm modes [ '755', '644' ]
+258 silly gunzTarPerm modes [ '755', '644' ]
+259 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-activate.php
+260 error not a package /Users/Meg/Documents/Websites/fullyscreened/readme.html
+261 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-comments-post.php
+262 error not a package /Users/Meg/Documents/Websites/fullyscreened/license.txt
+263 error not a package /Users/Meg/Documents/Websites/fullyscreened/index.php
+264 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-blog-header.php
+265 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-config-sample.php
+266 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-load.php
+267 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-cron.php
+268 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-links-opml.php
+269 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-settings.php
+270 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-signup.php
+271 error not a package /Users/Meg/Documents/Websites/fullyscreened/xmlrpc.php
+272 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-mail.php
+273 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-trackback.php
+274 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-config.php
+275 error not a package /Users/Meg/Documents/Websites/fullyscreened/wp-login.php
+276 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-activate.php
+277 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06/package.json'
+277 silly fetchPackageMetaData     at Error (native)
+277 silly fetchPackageMetaData  error for wp-activate.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06/package.json']
+277 silly fetchPackageMetaData   errno: -2,
+277 silly fetchPackageMetaData   code: 'ENOENT',
+277 silly fetchPackageMetaData   syscall: 'open',
+277 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06/package.json' }
+278 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/readme.html
+279 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-e9c6473d70f7814b3edf89ebb11ba62b/package.json'
+279 silly fetchPackageMetaData     at Error (native)
+279 silly fetchPackageMetaData  error for readme.html { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-e9c6473d70f7814b3edf89ebb11ba62b/package.json']
+279 silly fetchPackageMetaData   errno: -2,
+279 silly fetchPackageMetaData   code: 'ENOENT',
+279 silly fetchPackageMetaData   syscall: 'open',
+279 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-e9c6473d70f7814b3edf89ebb11ba62b/package.json' }
+280 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/index.php
+281 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5f6bfb14a29e69a5ad06a2437f6fd27d/package.json'
+281 silly fetchPackageMetaData     at Error (native)
+281 silly fetchPackageMetaData  error for index.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5f6bfb14a29e69a5ad06a2437f6fd27d/package.json']
+281 silly fetchPackageMetaData   errno: -2,
+281 silly fetchPackageMetaData   code: 'ENOENT',
+281 silly fetchPackageMetaData   syscall: 'open',
+281 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5f6bfb14a29e69a5ad06a2437f6fd27d/package.json' }
+282 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/license.txt
+283 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-67150334ee954eba23e1c3dbd10a30be/package.json'
+283 silly fetchPackageMetaData     at Error (native)
+283 silly fetchPackageMetaData  error for license.txt { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-67150334ee954eba23e1c3dbd10a30be/package.json']
+283 silly fetchPackageMetaData   errno: -2,
+283 silly fetchPackageMetaData   code: 'ENOENT',
+283 silly fetchPackageMetaData   syscall: 'open',
+283 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-67150334ee954eba23e1c3dbd10a30be/package.json' }
+284 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-comments-post.php
+285 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-38ec6662c6c70cbb4f6f29945786e41c/package.json'
+285 silly fetchPackageMetaData     at Error (native)
+285 silly fetchPackageMetaData  error for wp-comments-post.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-38ec6662c6c70cbb4f6f29945786e41c/package.json']
+285 silly fetchPackageMetaData   errno: -2,
+285 silly fetchPackageMetaData   code: 'ENOENT',
+285 silly fetchPackageMetaData   syscall: 'open',
+285 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-38ec6662c6c70cbb4f6f29945786e41c/package.json' }
+286 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-blog-header.php
+287 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-85d6a36f6d62db619a033b693e84580d/package.json'
+287 silly fetchPackageMetaData     at Error (native)
+287 silly fetchPackageMetaData  error for wp-blog-header.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-85d6a36f6d62db619a033b693e84580d/package.json']
+287 silly fetchPackageMetaData   errno: -2,
+287 silly fetchPackageMetaData   code: 'ENOENT',
+287 silly fetchPackageMetaData   syscall: 'open',
+287 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-85d6a36f6d62db619a033b693e84580d/package.json' }
+288 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-cron.php
+289 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-0b9fd748c6d566e25ce6da886ae966ba/package.json'
+289 silly fetchPackageMetaData     at Error (native)
+289 silly fetchPackageMetaData  error for wp-cron.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-0b9fd748c6d566e25ce6da886ae966ba/package.json']
+289 silly fetchPackageMetaData   errno: -2,
+289 silly fetchPackageMetaData   code: 'ENOENT',
+289 silly fetchPackageMetaData   syscall: 'open',
+289 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-0b9fd748c6d566e25ce6da886ae966ba/package.json' }
+290 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-load.php
+291 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d620d90a96b1bbc21ab0b9f2cc538c58/package.json'
+291 silly fetchPackageMetaData     at Error (native)
+291 silly fetchPackageMetaData  error for wp-load.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d620d90a96b1bbc21ab0b9f2cc538c58/package.json']
+291 silly fetchPackageMetaData   errno: -2,
+291 silly fetchPackageMetaData   code: 'ENOENT',
+291 silly fetchPackageMetaData   syscall: 'open',
+291 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d620d90a96b1bbc21ab0b9f2cc538c58/package.json' }
+292 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-config-sample.php
+293 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6c1c7040168c02afe1c046cafb95064e/package.json'
+293 silly fetchPackageMetaData     at Error (native)
+293 silly fetchPackageMetaData  error for wp-config-sample.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6c1c7040168c02afe1c046cafb95064e/package.json']
+293 silly fetchPackageMetaData   errno: -2,
+293 silly fetchPackageMetaData   code: 'ENOENT',
+293 silly fetchPackageMetaData   syscall: 'open',
+293 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6c1c7040168c02afe1c046cafb95064e/package.json' }
+294 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-links-opml.php
+295 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-298f94436acc627cf2e80e355d45d9e7/package.json'
+295 silly fetchPackageMetaData     at Error (native)
+295 silly fetchPackageMetaData  error for wp-links-opml.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-298f94436acc627cf2e80e355d45d9e7/package.json']
+295 silly fetchPackageMetaData   errno: -2,
+295 silly fetchPackageMetaData   code: 'ENOENT',
+295 silly fetchPackageMetaData   syscall: 'open',
+295 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-298f94436acc627cf2e80e355d45d9e7/package.json' }
+296 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-signup.php
+297 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d4103b11855b1c52c8d432de79b08f6a/package.json'
+297 silly fetchPackageMetaData     at Error (native)
+297 silly fetchPackageMetaData  error for wp-signup.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d4103b11855b1c52c8d432de79b08f6a/package.json']
+297 silly fetchPackageMetaData   errno: -2,
+297 silly fetchPackageMetaData   code: 'ENOENT',
+297 silly fetchPackageMetaData   syscall: 'open',
+297 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-d4103b11855b1c52c8d432de79b08f6a/package.json' }
+298 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-settings.php
+299 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-491b6d123fc9794f4cc37ae0ca93cd9f/package.json'
+299 silly fetchPackageMetaData     at Error (native)
+299 silly fetchPackageMetaData  error for wp-settings.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-491b6d123fc9794f4cc37ae0ca93cd9f/package.json']
+299 silly fetchPackageMetaData   errno: -2,
+299 silly fetchPackageMetaData   code: 'ENOENT',
+299 silly fetchPackageMetaData   syscall: 'open',
+299 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-491b6d123fc9794f4cc37ae0ca93cd9f/package.json' }
+300 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/xmlrpc.php
+301 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-35c6416074965c24fcc30ad6e9580c22/package.json'
+301 silly fetchPackageMetaData     at Error (native)
+301 silly fetchPackageMetaData  error for xmlrpc.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-35c6416074965c24fcc30ad6e9580c22/package.json']
+301 silly fetchPackageMetaData   errno: -2,
+301 silly fetchPackageMetaData   code: 'ENOENT',
+301 silly fetchPackageMetaData   syscall: 'open',
+301 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-35c6416074965c24fcc30ad6e9580c22/package.json' }
+302 http 404 https://registry.npmjs.org/wp-includes
+303 verbose headers { 'content-type': 'application/json',
+303 verbose headers   'cache-control': 'max-age=0',
+303 verbose headers   'content-length': '2',
+303 verbose headers   'accept-ranges': 'bytes',
+303 verbose headers   date: 'Wed, 09 Dec 2015 21:59:05 GMT',
+303 verbose headers   via: '1.1 varnish',
+303 verbose headers   age: '0',
+303 verbose headers   connection: 'keep-alive',
+303 verbose headers   'x-served-by': 'cache-dfw1823-DFW',
+303 verbose headers   'x-cache': 'MISS',
+303 verbose headers   'x-cache-hits': '0',
+303 verbose headers   'x-timer': 'S1449698345.503363,VS0,VE68' }
+304 silly get cb [ 404,
+304 silly get   { 'content-type': 'application/json',
+304 silly get     'cache-control': 'max-age=0',
+304 silly get     'content-length': '2',
+304 silly get     'accept-ranges': 'bytes',
+304 silly get     date: 'Wed, 09 Dec 2015 21:59:05 GMT',
+304 silly get     via: '1.1 varnish',
+304 silly get     age: '0',
+304 silly get     connection: 'keep-alive',
+304 silly get     'x-served-by': 'cache-dfw1823-DFW',
+304 silly get     'x-cache': 'MISS',
+304 silly get     'x-cache-hits': '0',
+304 silly get     'x-timer': 'S1449698345.503363,VS0,VE68' } ]
+305 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/wp-includes
+305 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+305 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+305 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+305 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+305 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+305 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+305 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+305 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+305 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+305 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+305 silly fetchPackageMetaData  error for wp-includes { [Error: Registry returned 404 for GET on https://registry.npmjs.org/wp-includes] pkgid: 'wp-includes', statusCode: 404, code: 'E404' }
+306 http 404 https://registry.npmjs.org/wp-content
+307 verbose headers { 'content-type': 'application/json',
+307 verbose headers   'cache-control': 'max-age=0',
+307 verbose headers   'content-length': '2',
+307 verbose headers   'accept-ranges': 'bytes',
+307 verbose headers   date: 'Wed, 09 Dec 2015 21:59:05 GMT',
+307 verbose headers   via: '1.1 varnish',
+307 verbose headers   age: '0',
+307 verbose headers   connection: 'keep-alive',
+307 verbose headers   'x-served-by': 'cache-dfw1821-DFW',
+307 verbose headers   'x-cache': 'MISS',
+307 verbose headers   'x-cache-hits': '0',
+307 verbose headers   'x-timer': 'S1449698345.505599,VS0,VE73' }
+308 silly get cb [ 404,
+308 silly get   { 'content-type': 'application/json',
+308 silly get     'cache-control': 'max-age=0',
+308 silly get     'content-length': '2',
+308 silly get     'accept-ranges': 'bytes',
+308 silly get     date: 'Wed, 09 Dec 2015 21:59:05 GMT',
+308 silly get     via: '1.1 varnish',
+308 silly get     age: '0',
+308 silly get     connection: 'keep-alive',
+308 silly get     'x-served-by': 'cache-dfw1821-DFW',
+308 silly get     'x-cache': 'MISS',
+308 silly get     'x-cache-hits': '0',
+308 silly get     'x-timer': 'S1449698345.505599,VS0,VE73' } ]
+309 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/wp-content
+309 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+309 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+309 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+309 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+309 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+309 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+309 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+309 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+309 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+309 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+309 silly fetchPackageMetaData  error for wp-content { [Error: Registry returned 404 for GET on https://registry.npmjs.org/wp-content] pkgid: 'wp-content', statusCode: 404, code: 'E404' }
+310 http 404 https://registry.npmjs.org/wp-admin
+311 verbose headers { 'content-type': 'application/json',
+311 verbose headers   'cache-control': 'max-age=0',
+311 verbose headers   'content-length': '2',
+311 verbose headers   'accept-ranges': 'bytes',
+311 verbose headers   date: 'Wed, 09 Dec 2015 21:59:05 GMT',
+311 verbose headers   via: '1.1 varnish',
+311 verbose headers   age: '0',
+311 verbose headers   connection: 'keep-alive',
+311 verbose headers   'x-served-by': 'cache-dfw1821-DFW',
+311 verbose headers   'x-cache': 'MISS',
+311 verbose headers   'x-cache-hits': '0',
+311 verbose headers   'x-timer': 'S1449698345.506040,VS0,VE78' }
+312 silly get cb [ 404,
+312 silly get   { 'content-type': 'application/json',
+312 silly get     'cache-control': 'max-age=0',
+312 silly get     'content-length': '2',
+312 silly get     'accept-ranges': 'bytes',
+312 silly get     date: 'Wed, 09 Dec 2015 21:59:05 GMT',
+312 silly get     via: '1.1 varnish',
+312 silly get     age: '0',
+312 silly get     connection: 'keep-alive',
+312 silly get     'x-served-by': 'cache-dfw1821-DFW',
+312 silly get     'x-cache': 'MISS',
+312 silly get     'x-cache-hits': '0',
+312 silly get     'x-timer': 'S1449698345.506040,VS0,VE78' } ]
+313 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/wp-admin
+313 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+313 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+313 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+313 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+313 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+313 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+313 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+313 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+313 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+313 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+313 silly fetchPackageMetaData  error for wp-admin { [Error: Registry returned 404 for GET on https://registry.npmjs.org/wp-admin] pkgid: 'wp-admin', statusCode: 404, code: 'E404' }
+314 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-trackback.php
+315 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-3161ee52fa317f635f3759bd642a8845/package.json'
+315 silly fetchPackageMetaData     at Error (native)
+315 silly fetchPackageMetaData  error for wp-trackback.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-3161ee52fa317f635f3759bd642a8845/package.json']
+315 silly fetchPackageMetaData   errno: -2,
+315 silly fetchPackageMetaData   code: 'ENOENT',
+315 silly fetchPackageMetaData   syscall: 'open',
+315 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-3161ee52fa317f635f3759bd642a8845/package.json' }
+316 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-mail.php
+317 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5b68bb1b320dc33e7795eaafef4d4eca/package.json'
+317 silly fetchPackageMetaData     at Error (native)
+317 silly fetchPackageMetaData  error for wp-mail.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5b68bb1b320dc33e7795eaafef4d4eca/package.json']
+317 silly fetchPackageMetaData   errno: -2,
+317 silly fetchPackageMetaData   code: 'ENOENT',
+317 silly fetchPackageMetaData   syscall: 'open',
+317 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-5b68bb1b320dc33e7795eaafef4d4eca/package.json' }
+318 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-config.php
+319 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-fd7e7fc99512aa86b7db0445ced8b786/package.json'
+319 silly fetchPackageMetaData     at Error (native)
+319 silly fetchPackageMetaData  error for wp-config.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-fd7e7fc99512aa86b7db0445ced8b786/package.json']
+319 silly fetchPackageMetaData   errno: -2,
+319 silly fetchPackageMetaData   code: 'ENOENT',
+319 silly fetchPackageMetaData   syscall: 'open',
+319 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-fd7e7fc99512aa86b7db0445ced8b786/package.json' }
+320 error addLocal Could not install /Users/Meg/Documents/Websites/fullyscreened/wp-login.php
+321 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6d2984b350f071126fc7429a68271b05/package.json'
+321 silly fetchPackageMetaData     at Error (native)
+321 silly fetchPackageMetaData  error for wp-login.php { [Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6d2984b350f071126fc7429a68271b05/package.json']
+321 silly fetchPackageMetaData   errno: -2,
+321 silly fetchPackageMetaData   code: 'ENOENT',
+321 silly fetchPackageMetaData   syscall: 'open',
+321 silly fetchPackageMetaData   path: '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-6d2984b350f071126fc7429a68271b05/package.json' }
+322 silly rollbackFailedOptional Starting
+323 silly rollbackFailedOptional Finishing
+324 silly runTopLevelLifecycles Starting
+325 silly runTopLevelLifecycles Finishing
+326 silly install printInstalled
+327 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06/package.json'
+327 verbose stack     at Error (native)
+328 verbose cwd /Users/Meg/Documents/Websites/fullyscreened
+329 error Darwin 15.0.0
+330 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "index.php" "license.txt" "readme.html" "wp-activate.php" "wp-admin" "wp-blog-header.php" "wp-comments-post.php" "wp-config-sample.php" "wp-config.php" "wp-content" "wp-cron.php" "wp-includes" "wp-links-opml.php" "wp-load.php" "wp-login.php" "wp-mail.php" "wp-settings.php" "wp-signup.php" "wp-trackback.php" "xmlrpc.php"
+331 error node v4.2.2
+332 error npm  v3.4.1
+333 error path /var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06/package.json
+334 error code ENOENT
+335 error errno -2
+336 error syscall open
+337 error enoent ENOENT: no such file or directory, open '/var/folders/pg/rrmg0ql947dcx48wc7k9q2g40000gn/T/npm-1202-d744ea14/unpack-a9666ad21c8141977a1036f448febc06/package.json'
+337 error enoent This is most likely not a problem with npm itself
+337 error enoent and is related to npm not being able to find a file.
+338 verbose exit [ -2, true ]
